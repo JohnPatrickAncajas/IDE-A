@@ -12,11 +12,20 @@
     </header>
 
     <main>
+        <div id="sidebar">
+            <div class="tab" onclick="showEditor('html5')">HTML</div>
+            <div class="tab" onclick="showEditor('css3')">CSS</div>
+            <div class="tab" onclick="showEditor('js')">JS</div>
+            <button onclick="runCode()">Run</button>
+            <button id="downloadHTML">Download HTML5</button>
+            <button id="downloadCSS">Download CSS3</button>
+            <button id="downloadJS">Download JavaScript</button>
+        </div>
+
         <div id="editor">
             <textarea id="html5" placeholder="Write your HTML5 code here!"></textarea>
             <textarea id="css3" placeholder="Write your CSS3 code here!"></textarea>
             <textarea id="js" placeholder="Write your JavaScript code here!"></textarea>
-            <button onclick="runCode()">Run</button>
         </div>
 
         <div id="output">
