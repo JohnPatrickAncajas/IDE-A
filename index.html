@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE-A</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IDE-A</h1>
+    </header>
+
+    <main>
+        <div id="editor">
+            <textarea id="html5" placeholder="Write your HTML5 code here!"></textarea>
+            <textarea id="css3" placeholder="Write your CSS3 code here!"></textarea>
+            <textarea id="js" placeholder="Write your JavaScript code here!"></textarea>
+            <button onclick="runCode()">Run</button>
+        </div>
+
+        <div id="output">
+            <iframe id="preview"></iframe>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
